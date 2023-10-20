@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import CategoryMenu from './Categorymenu'
+import CategoryMenu from './CategoryMenu'
 import FoodItem from './FoodItem'
 
 function Home() {
