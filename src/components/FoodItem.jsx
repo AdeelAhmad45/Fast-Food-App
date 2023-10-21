@@ -4,7 +4,7 @@ import FoodData from '../data/FoodData'
 
 function FoodItem() {
   return (
-    <div className='flex flex-wrap justify-center gap-10 lg:justify-start mx-6 my-10'>
+    <div className='flex flex-wrap justify-center gap-10 lg:justify-start mx-6 my-10 cursor-pointer'>
       {FoodData.map((food) => {
         return (
         <FoodCard 
