@@ -10,7 +10,7 @@ const FoodData = [
   },
   {
     id: 2,
-    img: "https://w7.pngwing.com/pngs/339/55/png-transparent-pizza-margherita-italian-cuisine-hot-dog-pizza-cheese-pizza-thumbnail.png",
+    img: "https://img.freepik.com/free-photo/cheese-pizza_74190-2512.jpg?w=1060&t=st=1697950607~exp=1697951207~hmac=b0e0d64917eaa815c174b0d7ef4f452b4ff6f26a7822e1d1b8a30e7df54adcd9",
     name: "Margherita Pizza",
     price: 130,
     desc: "A classic Italian pizza topped with fresh tomatoes, mozzarella cheese, basil leaves, and a drizzle of olive oil. Simple yet bursting with flavors, this Margherita Pizza is a timeless favorite that captures the essence of Italian cuisine.",
@@ -19,7 +19,7 @@ const FoodData = [
   },
   {
     id: 3,
-    img: "https://w7.pngwing.com/pngs/21/55/png-transparent-pepperoni-pizza-margarita-pizza-margherita-italian-cuisine-tomato-pizza-food-cheese-recipe-thumbnail.png",
+    img: "https://img.freepik.com/free-photo/delicious-italian-food_1147-165.jpg?w=740&t=st=1697950700~exp=1697951300~hmac=5c0f9acd7db342c7a2dea7496006b274556647ee411a8a83fe7f6b1e7e4120e7",
     name: "Pepperoni Pizza",
     price: 160,
     desc: "Indulge in the savory delight of this Pepperoni Pizza, loaded with slices of spicy pepperoni, melted cheese, and a tangy tomato sauce. A popular choice that's perfect for satisfying your pizza cravings.",
@@ -28,7 +28,7 @@ const FoodData = [
   },
   {
     id: 4,
-    img: "https://w7.pngwing.com/pngs/569/109/png-transparent-pizza-with-vegetables-and-mushroom-toppings-sicilian-pizza-california-style-pizza-pizza-margherita-vegetarian-cuisine-pizza-food-recipe-gourmet-thumbnail.png",
+    img: "https://img.freepik.com/free-photo/mushroom-pizza-vegetarian-white-background-isolated-still-life-copy-space-top-view-flat-lay_639032-295.jpg?w=740&t=st=1697950798~exp=1697951398~hmac=10221cd109a3a876f9e9017eeceb7ff8e4eecaf5f810e7e06111558aa9f92e8f",
     name: "Mushroom and Spinach Pizza",
     price: 140,
     desc: "Experience the earthy flavors of mushrooms combined with the freshness of spinach on this delightful pizza. Topped with a blend of cheeses, this Mushroom and Spinach Pizza offers a balanced and satisfying taste.",
@@ -37,7 +37,7 @@ const FoodData = [
   },
   {
     id: 5,
-    img: "https://w7.pngwing.com/pngs/843/171/png-transparent-pizza-73-restaurant-catupiry-chicken-as-food-pizza-baked-goods-food-recipe-thumbnail.png",
+    img: "https://img.freepik.com/free-photo/hawaiian-pizza_1203-2455.jpg?w=1060&t=st=1697950883~exp=1697951483~hmac=eea34a0fa2d37b32b1e70ebd0dcced655e59a0349552641243b9cca9ca83a251",
     name: "BBQ Chicken Pizza",
     price: 170,
     desc: "Savor the smoky goodness of this BBQ Chicken Pizza, featuring tender pieces of chicken marinated in barbecue sauce, red onions, and a medley of cheeses. A fusion of flavors that's sure to delight your taste buds.",
@@ -46,7 +46,7 @@ const FoodData = [
   },
   {
     id: 6,
-    img: "https://w7.pngwing.com/pngs/133/54/png-transparent-pancakes-served-on-plate-banana-pancakes-scrambled-eggs-breakfast-ihop-pancake-food-recipe-eating-thumbnail.png",
+    img: "https://img.freepik.com/premium-vector/delicious-fluffy-pancake-with-honey-butter-toppings-white-background_281653-999.jpg?w=1060",
     name: "Classic Pancakes",
     price: 80,
     desc: "Start your day with a stack of fluffy pancakes served with maple syrup and a dollop of butter. A timeless breakfast favorite that's sure to satisfy your morning cravings.",
@@ -55,7 +55,7 @@ const FoodData = [
   },
   {
     id: 7,
-    img: "https://w7.pngwing.com/pngs/645/475/png-transparent-croissant-bread-croissant-muffin-brunch-bacon-egg-and-cheese-sandwich-bread-croissants-baked-goods-food-baking-thumbnail.png",
+    img: "https://img.freepik.com/free-photo/croissants-table_144627-21535.jpg?w=740&t=st=1697951180~exp=1697951780~hmac=5753835d5a3c234119fff88616364c81a230bbe18efb5abb5a0631ff7677d073",
     name: "Egg and Bacon Croissant",
     price: 110,
     desc: "Indulge in a buttery croissant filled with scrambled eggs, crispy bacon, and melted cheese. A savory and satisfying breakfast option that's perfect for on-the-go mornings.",
@@ -64,7 +64,7 @@ const FoodData = [
   },
   {
     id: 8,
-    img: "https://w7.pngwing.com/pngs/683/103/png-transparent-frozen-yogurt-parfait-breakfast-yoghurt-fruit-salad-yogurt-frutti-di-bosco-food-breakfast-thumbnail.png",
+    img: "https://img.freepik.com/free-photo/trifle-dessert-with-berries-cream-isolated-white-background-ai-generative_123827-24183.jpg?w=1060&t=st=1697951914~exp=1697952514~hmac=027acf20a6520e8788f95c3c7994117bb524b27c40a91cd93c066679dc09b311",
     name: "Greek Yogurt Parfait",
     price: 95,
     desc: "Enjoy a healthy and refreshing breakfast with layers of creamy Greek yogurt, fresh berries, honey, and granola. A balanced option that provides a burst of flavors and energy.",
@@ -73,7 +73,7 @@ const FoodData = [
   },
   {
     id: 9,
-    img: "https://w7.pngwing.com/pngs/400/603/png-transparent-toast-tostytosty-la-tosteria-menu-food-dish-avocado-toast-food-toast-avocado-toast-thumbnail.png",
+    img: "https://img.freepik.com/premium-photo/open-avocado-sandwich-with-chia-seeds-seasoning-whole-grain-bread-isolated-white_1000714-207.jpg?w=740",
     name: "Avocado Toast",
     price: 120,
     desc: "Savor the creaminess of mashed avocado on toasted whole grain bread, topped with a sprinkle of sea salt and red pepper flakes. A trendy and nutritious breakfast choice.",
@@ -82,7 +82,7 @@ const FoodData = [
   },
   {
     id: 10,
-    img: "https://w7.pngwing.com/pngs/20/725/png-transparent-grain-bowl-breakfast-cereal-muesli-corn-flakes-bowl-granola-food-breakfast-recipe-thumbnail.png",
+    img: "https://img.freepik.com/premium-photo/ai-generated-illustration-wooden-bowl-acai-with-fresh-fruits-berries_665346-41621.jpg?w=740",
     name: "Fruit and Nut Oatmeal",
     price: 85,
     desc: "Warm up with a bowl of hearty oatmeal packed with mixed fruits, nuts, and a drizzle of honey. A wholesome breakfast that provides a satisfying start to your day.",

@@ -23,7 +23,7 @@ function Cart() {
             className="border-2 border-gray-600 text-gray-600 font-bold rounded-md text-xl p-1 hover:text-red-300 hover:border-red-300 cursor-pointer"
           />
         </div>
-        {cartItems.map((food) => {
+        {cartItems.length > 0 ? cartItems.map((food) => {
           return (
             <ItemCard
               key={food.id}
@@ -34,7 +34,7 @@ function Cart() {
               qty={food.qty}
             />
           );
-        })}
+        }) : <h2 className="text-center font-bold text-gray-800 text-xl">Your cart is empty</h2>}
 
         <div className="absolute bottom-0">
           <h3 className="font-semibold text-gray-600">Total Amount</h3>

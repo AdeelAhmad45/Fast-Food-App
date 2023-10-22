@@ -10,10 +10,10 @@ function FoodCard({ id, img, name, price, desc, rating }) {
     <div className="font-bold flex flex-col w-[250px] bg-white p-5 rounded-lg">
       <img
         src={img}
-        className="w-auto  h-[130px] hover:scale-110 transition-all duration-500 ease-in-out"
+        className="w-auto h-[130px] hover:scale-110 transition-all duration-500 ease-in-out"
       />
 
-      <div className="text-sm flex  justify-between">
+      <div className="text-sm flex  justify-between my-2">
         <h2>{name}</h2>
         <span className="text-green-500">₹{price}</span>
       </div>
