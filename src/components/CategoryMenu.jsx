@@ -18,7 +18,7 @@ function Categorymenu() {
           Dinner
         </button>
         <button className="px-3 py-2 bg-gray-200 rounded-lg hover:bg-green-400 hover:text-white">
-          Dinner
+          Snacks
         </button>
       </div>
     </div>

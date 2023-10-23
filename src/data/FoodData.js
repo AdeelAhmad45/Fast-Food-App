@@ -91,7 +91,7 @@ const FoodData = [
   },
   {
     id: 11,
-    img: "https://w7.pngwing.com/pngs/875/111/png-transparent-north-fish-seafood-dish-smoked-salmon-restaurant-grilled-fish-hd-soup-food-seafood-thumbnail.png",
+    img: "https://img.freepik.com/free-photo/fish-dish-fried-fish-fillet-with-vegetables_2829-13818.jpg?w=740&t=st=1697957534~exp=1697958134~hmac=c293a2488d97d29661f539c80ddcee83bb5f1544737a9c21c263354cf8db34a8",
     name: "Grilled Salmon",
     price: 190,
     desc: "Delight in a perfectly grilled salmon fillet seasoned with herbs and served with a side of roasted vegetables. A healthy and flavorful dinner option that's rich in omega-3 fatty acids.",
@@ -100,7 +100,7 @@ const FoodData = [
   },
   {
     id: 12,
-    img: "https://w7.pngwing.com/pngs/756/828/png-transparent-taglierini-carbonara-fettuccine-alfredo-chicken-pasta-chicken-fillet-thumbnail.png",
+    img: "https://img.freepik.com/premium-photo/white-bowl-filled-with-pasta-sauce_855892-2036.jpg?w=740",
     name: "Chicken Alfredo Pasta",
     price: 160,
     desc: "Indulge in creamy fettuccine Alfredo pasta with tender pieces of grilled chicken. This comforting dinner dish is a blend of pasta, rich Alfredo sauce, and savory chicken.",
@@ -109,7 +109,7 @@ const FoodData = [
   },
   {
     id: 13,
-    img: "https://w7.pngwing.com/pngs/651/721/png-transparent-veggie-burger-vegetable-food-recipe-stir-frying-vegetables-frying-pan-frozen-vegetables-fruit-thumbnail.png",
+    img: "https://th.bing.com/th/id/R.0b31d7f79bebbf33c72c9f71ab1ed375?rik=1vFc5bCDHsmssQ&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fstir-fry-png-cook-760.png&ehk=fIS0m0ZPxTBDkqrpl0V9YOUTiHTbuBp29uCLlNGIHm4%3d&risl=&pid=ImgRaw&r=0",
     name: "Vegetable Stir-Fry",
     price: 130,
     desc: "Enjoy a medley of colorful vegetables stir-fried in a flavorful sauce, served over steamed rice. A light and nutritious dinner that's both satisfying and wholesome.",
@@ -118,7 +118,7 @@ const FoodData = [
   },
   {
     id: 14,
-    img: "https://w7.pngwing.com/pngs/575/331/png-transparent-burrito-taco-bell-mexican-cuisine-chipotle-mexican-grill-menu-thumbnail.png",
+    img: "https://hotheadburritos.com/data/_uploaded/image/bowl-cutout-1.png",
     name: "Grilled Chicken Burrito Bowl",
     price: 160,
     desc: "Savor the flavors of a delicious burrito bowl with tender grilled chicken, black beans, rice, sautéed peppers and onions, shredded cheese, and a drizzle of zesty cilantro-lime dressing. A hearty and satisfying chicken dinner option.",
@@ -127,7 +127,7 @@ const FoodData = [
   },
   {
     id: 15,
-    img: "https://w7.pngwing.com/pngs/47/171/png-transparent-chinese-noodles-hot-and-sour-soup-risotto-lomi-lamian-slippery-mushrooms-risotto-dusi-soup-food-recipe-thumbnail.png",
+    img: "https://www.thehattedchef.com.au/wp-content/uploads/2020/10/RISOTTO.png",
     name: "Mushroom Risotto",
     price: 175,
     desc: "Indulge in creamy and flavorful mushroom risotto, made with Arborio rice, sautéed mushrooms, and a touch of Parmesan cheese. A comforting and sophisticated dinner choice.",
@@ -136,8 +136,7 @@ const FoodData = [
   },
   {
     id: 16,
-    img: "https://w7.pngwing.com/pngs/47/171/png-transparent-chinese-noodles-hot-and-sour-soup-risotto-lomi-lamian-slippery-mushrooms-risotto-dusi-soup-food-recipe-thumbnail.png",
-    name: "Cheese and Crackers Platter",
+    img: "https://img.freepik.com/free-photo/traditional-french-onion-soup-isolated-white-background_123827-19732.jpg?w=1060&t=st=1698075009~exp=1698075609~hmac=e06d5936c017d6e3c57853e6d7f547953d0054ab0c6324a174b9ee571ea9c5c7",
     price: 120,
     desc: "Enjoy a variety of artisan cheeses, paired with an assortment of crispy crackers and complemented by fresh fruits and nuts. A delightful snack option for sharing or indulging in on your own.",
     category: "Snacks",
@@ -145,7 +144,7 @@ const FoodData = [
   },
   {
     id: 17,
-    img: "https://w7.pngwing.com/pngs/204/32/png-transparent-crispy-fried-chicken-karaage-chicken-nugget-chicken-fingers-buffalo-wing-carrot-chilli-thumbnail.png",
+    img: "https://img.freepik.com/free-photo/grilled-bbq-chicken-wing-white-plate_1203-2472.jpg?w=1060&t=st=1698075060~exp=1698075660~hmac=8b201e01984df263c49fde37f2699b768237d19c49502190a97ba843935aa716",
     name: "Crispy Chicken Wings",
     price: 130,
     desc: "Savor the satisfying crunch of crispy chicken wings seasoned to perfection. Choose your favorite sauce, from tangy BBQ to spicy buffalo, for a flavorful snacking experience.",
@@ -154,7 +153,7 @@ const FoodData = [
   },
   {
     id: 18,
-    img: "https://w7.pngwing.com/pngs/816/163/png-transparent-grilled-skewered-meat-bakery-paneer-tikka-indian-cuisine-vegetarian-cuisine-cake-food-baking-cake-decorating-thumbnail.png",
+    img: "https://img.freepik.com/free-photo/delicious-food-tray_144627-34532.jpg?w=1060&t=st=1698075138~exp=1698075738~hmac=7bb843e386efc7809566db1322e1dab7be632ad25e67ef3165607e85db4fc216",
     name: "Paneer Tikka Skewers",
     price: 130,
     desc: "Enjoy succulent pieces of marinated paneer (Indian cottage cheese) skewered and grilled to perfection. Served with mint chutney, these paneer tikka skewers offer a flavorful and aromatic Indian snack experience.",
@@ -163,7 +162,7 @@ const FoodData = [
   },
   {
     id: 19,
-    img: "https://w7.pngwing.com/pngs/356/675/png-transparent-falafel-lebanese-cuisine-take-out-mediterranean-cuisine-hummus-bed-miscellaneous-furniture-food-thumbnail.png",
+    img: "https://img.freepik.com/free-photo/delicious-food-white-plate_144627-34685.jpg?w=1060&t=st=1698075235~exp=1698075835~hmac=7adf596b8959037952862b7905c42698d155163ae970a9d41365642c0d6cc2c0",
     name: "Hummus and Veggie Platter",
     price: 90,
     desc: "Relish the smooth and flavorful hummus accompanied by a variety of fresh vegetable sticks and pita bread. A nutritious and satisfying option for a light and refreshing snack.",
@@ -172,7 +171,7 @@ const FoodData = [
   },
   {
     id: 20,
-    img: "https://w7.pngwing.com/pngs/435/847/png-transparent-pincho-canape-skewer-fruit-others-thumbnail.png",
+    img: "https://img.freepik.com/free-photo/meat-skewer-with-vegetables-isolated-white-background-ai-generative_123827-24960.jpg?t=st=1698075337~exp=1698078937~hmac=ba32b47b72b36f04ac2478afc56f6b6ca06667b69d5d6cf28555452261529bab&w=1060",
     name: "Fruit Skewers",
     price: 70,
     desc: "Indulge in a colorful assortment of fruit skewers featuring juicy chunks of melon, berries, pineapple, and more. A sweet and refreshing snack that's both delicious and visually appealing.",
