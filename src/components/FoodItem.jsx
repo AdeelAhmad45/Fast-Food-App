@@ -14,11 +14,10 @@ const FoodItems = () => {
       <div className="flex flex-wrap gap-10 justify-center lg:justify-start mx-6 my-10">
         {FoodData.filter((food) => {
           if (category === "All") {
-            return food.name.toLowerCase().includes(search.toLowerCase());
+            return food
           } else {
             return (
-              category === food.category &&
-              food.name.toLowerCase().includes(search.toLowerCase())
+              category === food.category
             );
           }
         }).map((food) => (
