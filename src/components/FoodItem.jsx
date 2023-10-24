@@ -2,9 +2,11 @@ import React from "react";
 import FoodCard from "./FoodCard";
 import FoodData from "../data/FoodData";
 import toast, { Toaster } from 'react-hot-toast';
+import { useSelector } from "react-redux";
 
 function FoodItem() {
   const handleToast = (name) => toast.success(`Added ${name} to cart`)
+  const category = useSelector((state) => state.category.category)
   return (
    <>
    <Toaster
@@ -12,9 +14,16 @@ function FoodItem() {
   reverseOrder={false}
 />
     <div className="flex flex-wrap justify-center gap-8 lg:justify-start mx-6 my-10 cursor-pointer">
-      {FoodData.map((food) => {
-        return (
-          <FoodCard
+      {
+        FoodData.filter((food) => {
+          if(category === "All"){
+            return food;
+          } else {
+            return category === food.category
+          }
+        }).map((food) => 
+          (
+            <FoodCard
             key={food.id}
             id={food.id}
             img={food.img}
@@ -25,8 +34,10 @@ function FoodItem() {
             handleToast={handleToast}
 
           />
-        );
-      })}
+          )
+        )
+      }
+
     </div>
    </>
   );
