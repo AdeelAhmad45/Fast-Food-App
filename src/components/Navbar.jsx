@@ -2,6 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { setSearch } from "../slice/SearchSlice";
 
+
 const Navbar = () => {
   const dispatch = useDispatch();
   return (
@@ -10,7 +11,7 @@ const Navbar = () => {
         <h3 className="text-xl font-bold text-gray-600">
           {new Date().toUTCString().slice(0, 16)}
         </h3>
-        <h1 className="text-2xl font-bold ">Flavoro Foods</h1>
+        <h1 className="text-2xl font-bold ">Addy Foods</h1>
       </div>
       <div>
         <input

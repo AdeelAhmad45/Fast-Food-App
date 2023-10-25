@@ -4,7 +4,7 @@ import FoodData from "../data/FoodData";
 import toast, { Toaster } from 'react-hot-toast';
 import { useSelector } from "react-redux";
 
-const FoodItems = () => {
+function FoodItems() {
   const category = useSelector((state) => state.category.category);
   const search = useSelector((state) => state.search.search);
   const handleToast = (name) => toast.success(`Added ${name} `);
@@ -17,7 +17,7 @@ const FoodItems = () => {
             return food
           } else {
             return (
-              category === food.category
+              category === food.category 
             );
           }
         }).map((food) => (
@@ -29,12 +29,11 @@ const FoodItems = () => {
             desc={food.desc}
             rating={food.rating}
             img={food.img}
-            handleToast={handleToast}
-          />
+            handleToast={handleToast} />
         ))}
       </div>
     </>
   );
-};
+}
 
 export default FoodItems;
