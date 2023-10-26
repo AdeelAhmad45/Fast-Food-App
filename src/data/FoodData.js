@@ -46,7 +46,7 @@ const FoodData = [
   },
   {
     id: 6,
-    img: "https://img.freepik.com/premium-vector/delicious-fluffy-pancake-with-honey-butter-toppings-white-background_281653-999.jpg?w=1060",
+    img: "https://th.bing.com/th/id/OIP.3jyw-x20rK2SX-fniutzCAHaFj?pid=ImgDet&w=500&h=375&rs=1",
     name: "Classic Pancakes",
     price: 80,
     desc: "Start your day with a stack of fluffy pancakes served with maple syrup and a dollop of butter. A timeless breakfast favorite that's sure to satisfy your morning cravings.",
@@ -137,6 +137,7 @@ const FoodData = [
   {
     id: 16,
     img: "https://img.freepik.com/free-photo/traditional-french-onion-soup-isolated-white-background_123827-19732.jpg?w=1060&t=st=1698075009~exp=1698075609~hmac=e06d5936c017d6e3c57853e6d7f547953d0054ab0c6324a174b9ee571ea9c5c7",
+    name: "Cheese and Crackers Platter",
     price: 120,
     desc: "Enjoy a variety of artisan cheeses, paired with an assortment of crispy crackers and complemented by fresh fruits and nuts. A delightful snack option for sharing or indulging in on your own.",
     category: "Snacks",

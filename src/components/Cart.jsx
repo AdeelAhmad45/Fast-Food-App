@@ -9,7 +9,7 @@ function Cart() {
   const [activeCart, setActiveCart] = useState(false);
   const cartItems = useSelector((state) => state.cart.cart);
   const totalQty = cartItems.reduce((totalQty , item) => totalQty + item.qty , 0)
-  const totalAmount = cartItems.reduce((totalAmount, item) => totalAmount + item.price, 0)
+  const totalAmount = cartItems.reduce((totalAmount, item) => totalAmount + item.qty * item.price, 0)
 
   return (
     <>
