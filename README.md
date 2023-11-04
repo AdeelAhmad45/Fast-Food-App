@@ -6,7 +6,6 @@ This is a food app developed using React, Redux, Redux Toolkit, and various othe
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
-- [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Redux Slices](#redux-slices)
 - [Styling with TailwindCSS](#styling-with-tailwindcss)
