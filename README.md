@@ -7,14 +7,9 @@ This is a food app developed using React, Redux, Redux Toolkit, and various othe
 - [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Redux Slices](#redux-slices)
 - [Styling with TailwindCSS](#styling-with-tailwindcss)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 This food app is a comprehensive example of a modern web application, using React for the frontend, Redux for state management, Redux Toolkit for efficient store configuration, and `hot-toast` for user-friendly notifications. Additionally, the app is styled using `TailwindCSS` to create a responsive and visually appealing user interface.
